@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navjos"
+    app:startDestination="@id/startFragmentJOS">
+
+    <fragment
+        android:id="@+id/slotFragmentJOS"
+        android:name="com.jokerua.iron.fragJOS.SlotFragmentJOS"
+        android:label="fragment_slot_j_o_s"
+        tools:layout="@layout/fragment_slot_j_o_s" >
+        <action
+            android:id="@+id/action_slotFragmentJOS_to_whellFragmentJOS"
+            app:destination="@id/whellFragmentJOS" />
+        <action
+            android:id="@+id/action_slotFragmentJOS_to_whellSupperFragment"
+            app:destination="@id/whellSupperFragment" />
+        <action
+            android:id="@+id/action_slotFragmentJOS_to_startFragmentJOS"
+            app:destination="@id/startFragmentJOS" />
+    </fragment>
+    <fragment
+        android:id="@+id/whellFragmentJOS"
+        android:name="com.jokerua.iron.fragJOS.WhellFragmentJOS"
+        android:label="fragment_whell_j_o_s"
+        tools:layout="@layout/fragment_whell_j_o_s" >
+        <action
+            android:id="@+id/action_whellFragmentJOS_to_startFragmentJOS"
+            app:destination="@id/startFragmentJOS" />
+    </fragment>
+    <fragment
+        android:id="@+id/whellSupperFragment"
+        android:name="com.jokerua.iron.fragJOS.WhellSupperFragment"
+        android:label="fragment_whell_supper"
+        tools:layout="@layout/fragment_whell_supper" >
+        <action
+            android:id="@+id/action_whellSupperFragment_to_slotFragmentJOS"
+            app:destination="@id/slotFragmentJOS" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragmentJOS"
+        android:name="com.jokerua.iron.fragJOS.StartFragmentJOS"
+        android:label="fragment_start_j_o_s"
+        tools:layout="@layout/fragment_start_j_o_s" >
+        <action
+            android:id="@+id/action_startFragmentJOS_to_slotFragmentJOS"
+            app:destination="@id/slotFragmentJOS" />
+        <action
+            android:id="@+id/action_startFragmentJOS_to_whellFragmentJOS"
+            app:destination="@id/whellFragmentJOS" />
+    </fragment>
+</navigation>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragJOS.SlotFragmentJOS">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/rectjos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        android:src="@drawable/qqq1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/rect2jos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.widget.Button
+        android:id="@+id/buttonmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rectjos"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonplu"
+        app:layout_constraintEnd_toStartOf="@+id/buttonplu"
+        app:layout_constraintTop_toTopOf="@+id/buttonplu" />
+
+    <android.widget.Button
+        android:id="@+id/buttonplu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectjos"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewbet" />
+
+    <android.widget.Button
+        android:id="@+id/buttonmax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/rectjos"
+        android:text="MAX"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonplu"
+        app:layout_constraintStart_toEndOf="@+id/buttonplu"
+        app:layout_constraintTop_toTopOf="@+id/buttonplu" />
+
+    <android.widget.Button
+        android:id="@+id/buttonbec"
+        android:layout_width="270dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rectjos"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/buttonmax"
+        app:layout_constraintStart_toStartOf="@+id/buttonmin"
+        app:layout_constraintTop_toBottomOf="@+id/buttonpla"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <TextView
+        android:id="@+id/textViewbet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bet : 0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <android.widget.Button
+        android:id="@+id/buttonpla"
+        android:layout_width="270dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectjos"
+        android:text="Play"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/buttonmax"
+        app:layout_constraintStart_toStartOf="@+id/buttonmin"
+        app:layout_constraintTop_toBottomOf="@+id/buttonplu" />
+
+    <ImageView
+        android:id="@+id/imageViewbbbit"
+        android:layout_width="338dp"
+        android:layout_height="184dp"
+        android:src="@drawable/rect2jos"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textViewbbbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" place your bet"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbbbit" />
+
+    <TextView
+        android:id="@+id/textViewWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbbbit"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbbbit" />
+
+    <TextView
+        android:id="@+id/textViewLosJOI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You lost"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbbbit"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbbbit" />
+
+    <TextView
+        android:id="@+id/textViewlllo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You ran out of points"
+        android:textColor="#FDFCFC"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbbbit"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbbbit"
+        app:layout_constraintVertical_bias="0.13"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/buttoninm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/rectjos"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=" on the menu"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <android.widget.Button
+        android:id="@+id/buttoninp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectjos"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="earn points"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoninm"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/buttoninm"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewSup"
+        android:layout_width="301dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_horizontal"
+        android:text="Want to play the super game and multiply your winnings"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbbbit"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbbbit"
+        app:layout_constraintVertical_bias="0.16000003" />
+
+    <android.widget.Button
+        android:id="@+id/buttonNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectjos"
+        android:text="NO"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbbbit"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbbbit"
+        app:layout_constraintVertical_bias="0.71000004" />
+
+    <android.widget.Button
+        android:id="@+id/buttonYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectjos"
+        android:text="YES"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbbbit"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbbbit"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/imageViewbbbit"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbbbit"
+        app:layout_constraintVertical_bias="0.71000004" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
